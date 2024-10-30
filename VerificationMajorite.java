@@ -1,13 +1,16 @@
 class VerificationMajorite {
-  public static void main(String[] var0) {
-     int var1 = Integer.parseInt(var0[0]);
-     System.out.println("Age pass\u00c3\u00a9 en argument :" + var1);
-     if (var1 >= 18) {
-        System.out.println("Vous \u00c3\u00aates majeur.");
+  
+  public static void main(String[] args) {
+    
+     int age = Integer.parseInt(args[0]); //pour convertir args[0] qui est une chaine de caractère et qui contient un entier en type integer on utilise Integer.parseInt()
+     System.out.println("Age passe en argument :" + age);
+     if (age >= 18) {
+        System.out.println("Vous etes majeur.");
      } else {
-        System.out.println("Vous \u00c3\u00aates mineur.");
+        System.out.println("Vous etes mineur.");
      }
 
   }
+  
 }
 
