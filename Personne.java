@@ -12,8 +12,10 @@ class Personne{
     System.out.println("Nom: "+nom);
     System.out.println("Age: "+age);
   }
+  
   public static void main(String[] args) {
-      Personne personne=new Personne("Jean Dupont",25);
-      personne.afficherInfos();
+    Personne personne=new Personne("Jean Dupont",25);
+    personne.afficherInfos();
   }
+  
 }
